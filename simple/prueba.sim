@@ -1,0 +1,27 @@
+subprograma Radio_Circunferencia
+
+comienzo
+   ## Constante
+   PI: constante real := .3141592^1;
+
+   ## Variables
+   area, radio: real;
+   otra_cosa : real := %x1F.34^-Faa;
+
+   escribir_consola("%nRadio de la #{circunferencia#}%
+                    %o151%O144%X69%O157%x74%O141: ");
+   leer_consola(radio); #{ Entrada de dato #}
+
+   ## Calculo del area
+   area := PI * radio ^ 2;
+
+   #{ El resultado del area se saca por la "consola":
+     se trata de un numero real #}
+   escribir_consola("%nArea de la %
+                     %"circunferencia%": #f", area); escribir_consola("%n");
+
+   DeVoLVeR area;
+fin subprograma
+
+
+
